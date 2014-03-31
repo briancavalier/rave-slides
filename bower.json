@@ -24,7 +24,7 @@
     "rave": "~0.0.8",
     "wire": "briancavalier/wire-next#master",
     "csst": "~0.1.0",
-    "rave-text-byext": "~0.1.4",
-    "marked": "~0.3.2"
+    "marked": "~0.3.2",
+    "rave-load-text": "~0.1.4"
   }
 }

@@ -11,7 +11,7 @@ var markdown = require('./lib/slides/markdown');
 module.exports = merge([dom, fluent(function(context) {
 	return context
 		.add('slides', function() {
-			return require.async('./slides.txt')
+			return require.async('./slides.md')
 				.then(markdown())
 				.then(split(/\s*\<hr\s*\/?\>\s*/i));
 		})
