@@ -1,0 +1,30 @@
+{
+  "name": "rave-slides",
+  "version": "0.0.1",
+  "authors": [
+    "Brian Cavalier <brian@hovercraftstudios.com>"
+  ],
+  "description": "HTML slide deck with RaveJS",
+  "main": "main",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "rave"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "rave": "~0.0.8",
+    "wire": "briancavalier/wire-next#master",
+    "csst": "~0.1.0",
+    "rave-text-byext": "~0.1.4",
+    "marked": "~0.3.2"
+  }
+}
