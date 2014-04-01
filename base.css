@@ -48,7 +48,7 @@ pre code {
     line-height: 1.25em;
 }
 
-.slide-view-module {
+.slide-view {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -99,7 +99,7 @@ pre code {
         min-height: auto;
     }
 
-    .slide-view-module {
+    .slide-view {
         min-width: 0;
         min-height: 0;
     }
@@ -130,7 +130,7 @@ pre code {
     opacity: 0;
 }
 
-.slide-view-module .slide-before, .slide-view-module .slide-after {
+.slide-view .slide-before, .slide-view .slide-after {
     position: absolute;
     z-index: -1;
 }
