@@ -2,6 +2,8 @@ var fluent = require('wire/config/fluent');
 var merge = require('wire/config/merge');
 var dom = require('wire/dom');
 
+require('./base.css');
+
 var SlideModel = require('./lib/SlideModel');
 var SlideView = require('./lib/SlideView');
 var PresentationController = require('./lib/PresentationController');

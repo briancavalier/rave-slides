@@ -12,7 +12,9 @@
   "rave": {
     "overrides": {
       "marked": {
-        "moduleType": ["node"]
+        "moduleType": [
+          "node"
+        ]
       }
     }
   },
@@ -32,6 +34,7 @@
     "wire": "briancavalier/wire-next#master",
     "csst": "~0.1.0",
     "marked": "~0.3.2",
-    "rave-load-text": "~0.1.4"
+    "rave-load-text": "~0.2",
+    "rave-load-css": "~0.2"
   }
 }
